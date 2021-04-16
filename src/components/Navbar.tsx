@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import NavbarElement from "./";
+import { NavbarElement } from ".";
 
 const NavbarWrapper = styled.nav`
   height: 60px;
@@ -14,7 +14,7 @@ const LogoObject = styled.img`
   border: 1px solid black;
 `;
 
-const Navbar = () => (
+const Navbar: React.FC = () => (
   <NavbarWrapper>
     <NavbarElement link="#" label="Photos" />
     <LogoObject alt="Logo" />

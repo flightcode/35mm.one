@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "@emotion/styled";
-import PropTypes from "prop-types";
 
 const Link = styled.a`
   display: flex;
@@ -12,11 +11,13 @@ const Link = styled.a`
   text-decoration: none;
 `;
 
-const NavbarElement = (props) => <Link href={props.link}>{props.label}</Link>;
+interface NavbarProps {
+  link: string;
+  label: string;
+}
 
-NavbarElement.propTypes = {
-  link: PropTypes.string.isRequired,
-  label: PropTypes.string,
-};
+const NavbarElement: React.FC<NavbarProps> = ({ link, label }: NavbarProps) => (
+  <Link href={link}>{label}</Link>
+);
 
 export { NavbarElement };

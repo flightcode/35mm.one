@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components";
+import { Header } from "../components";
 
-const Home = () => (
+const Home: React.FC = () => (
   <div>
     <Header />
   </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import Navbar from "./";
+import { Navbar } from ".";
 
 const HeaderWrapper = styled.header`
   width: 100vw;
@@ -8,7 +8,7 @@ const HeaderWrapper = styled.header`
   z-index: +1;
 `;
 
-const Header = () => (
+const Header: React.FC = () => (
   <HeaderWrapper>
     <Navbar />
   </HeaderWrapper>
