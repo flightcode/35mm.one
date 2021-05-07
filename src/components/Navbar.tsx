@@ -1,23 +1,27 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { NavbarElement } from ".";
+import logo from "../logo.svg";
 
 const NavbarWrapper = styled.nav`
-  height: 60px;
+  height: 120px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
+  outline: 1px solid #000000;
 `;
 
 const LogoObject = styled.img`
-  width: 60px;
-  border: 1px solid black;
+  height: 120px;
+  margin: 0 20px;
+  outline: 1px solid #000000;
 `;
 
 const Navbar: React.FC = () => (
   <NavbarWrapper>
     <NavbarElement link="#" label="Photos" />
-    <LogoObject alt="Logo" />
+    <LogoObject alt="Logo" src={logo} />
     <NavbarElement link="#" label="Stories" />
   </NavbarWrapper>
 );
