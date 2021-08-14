@@ -4,16 +4,16 @@ import { NavbarElement } from ".";
 import logo from "../logo.svg";
 
 const NavbarWrapper = styled.nav`
-  height: 120px;
+  height: 100px;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: stretch;
   background: #fbfbfb;
 `;
 
 const LogoObject = styled.img`
-  height: 120px;
+  height: 100px;
   margin: 0 20px;
 `;
 

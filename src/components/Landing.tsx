@@ -4,7 +4,11 @@ import bg from "../bg.jpg";
 
 const LandingWrapper = styled.div`
   width: 100%;
-  height: calc(100vh - 220px);
+  height: calc(70vh - 100px);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Backdrop = styled.img`
@@ -16,9 +20,6 @@ const Backdrop = styled.img`
 const TextOverlay = styled.h1`
   z-index: +1;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 `;
 
 const Landing: React.FC = () => (

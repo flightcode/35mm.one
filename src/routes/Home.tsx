@@ -3,7 +3,11 @@ import styled from "@emotion/styled";
 import { Header, Landing } from "../components";
 
 const ContentWrapper = styled.div`
-  margin-top: 120px;
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
 `;
 
 const Home: React.FC = () => (
