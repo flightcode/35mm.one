@@ -12,15 +12,27 @@ const NavbarWrapper = styled.nav`
   background: #fbfbfb;
 `;
 
-const LogoObject = styled.img`
+const LogoWrapper = styled.h1`
   height: 100px;
   margin: 0 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+`;
+
+const LogoObject = styled.img`
+  height: 40px;
 `;
 
 const Navbar: React.FC = () => (
   <NavbarWrapper>
     <NavbarElement link="#" label="Photos" />
-    <LogoObject alt="Logo" src={logo} />
+    <LogoWrapper>
+      35mm.
+      <LogoObject alt="Logo" src={logo} />
+      ne
+    </LogoWrapper>
     <NavbarElement link="#" label="Stories" />
   </NavbarWrapper>
 );
