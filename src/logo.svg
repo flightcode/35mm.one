@@ -1,11 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-<rect x="51.667" y="240.565" width="84.323" height="7.03"/>
-<polygon points="135.99,65.075 135.99,58.045 25.161,58.045 25.161,221.09 31.916,221.09 31.916,153.602 123.231,153.602 
-	123.231,146.571 31.916,146.571 31.916,65.075 "/>
-<path d="M177.77,167.531v80.064h-6.754V58.045h56.916c18.596,0,33.043,4.882,43.344,14.646
-	c10.297,9.764,15.447,23.326,15.447,40.684c0,17.185-5.025,30.463-15.072,39.837c-10.051,9.373-24.33,14.147-42.844,14.32H177.77z
-	 M177.77,160.501h50.162c16.428,0,29.207-4.121,38.34-12.368c9.131-8.244,13.697-19.743,13.697-34.499
-	c0-15.274-4.566-27.187-13.697-35.736c-9.133-8.547-21.912-12.823-38.34-12.823H177.77V160.501z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 100 100"
+   preserveAspectRatio="xMidYMid"
+   style="stroke:black;"
+   version="1.1"
+   id="svg179"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/Users/elliotparker/Documents/Programming/35mm.one/public/favicon.png"
+   inkscape:export-xdpi="61.439999"
+   inkscape:export-ydpi="61.439999"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs183" />
+  <sodipodi:namedview
+     id="namedview181"
+     pagecolor="#ffffff"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="8.43"
+     inkscape:cx="31.079478"
+     inkscape:cy="46.737841"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg179" />
+  <ellipse
+     cx="50.001259"
+     cy="50"
+     fill="none"
+     id="circle165"
+     rx="39.999531"
+     ry="40"
+     style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="M87 35 L42.5,35"
+     id="path167"
+     style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="M79 78 L57.5,35"
+     id="path169"
+     style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="M45 90 L65,50"
+     id="path171"
+     style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="M13 65 L57.5,65"
+     id="path173"
+     style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="M21 22 L42.5,65"
+     id="path175"
+     style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="M55 10 L35 50"
+     id="path177"
+     style="stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
 </svg>
