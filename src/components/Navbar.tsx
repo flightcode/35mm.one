@@ -9,13 +9,12 @@ const NavbarWrapper = styled.nav`
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  outline: 1px solid #000000;
+  background: #fbfbfb;
 `;
 
 const LogoObject = styled.img`
   height: 120px;
   margin: 0 20px;
-  outline: 1px solid #000000;
 `;
 
 const Navbar: React.FC = () => (

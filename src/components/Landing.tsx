@@ -5,7 +5,6 @@ import bg from "../bg.jpg";
 const LandingWrapper = styled.div`
   width: 100%;
   height: calc(100vh - 220px);
-  outline: 1px solid black;
 `;
 
 const Backdrop = styled.img`
